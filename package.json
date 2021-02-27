@@ -1,0 +1,40 @@
+{
+  "name": "@afipsdk/afip.js",
+  "version": "0.7.0",
+  "description": "Libreria para usar los Web Services de AFIP con JavaScript",
+  "main": "src/Afip.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfipSDK/afip.js"
+  },
+  "keywords": [
+    "web-service",
+    "factura-electronica",
+    "padron",
+    "afip"
+  ],
+  "author": "AfipSDK <afipsdk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AfipSDK/afip.js/issues"
+  },
+  "homepage": "https://github.com/AfipSDK/afip.js#readme",
+  "dependencies": {
+    "afip-apis": "^0.1.6",
+    "fs": "0.0.1-security",
+    "node-forge": "^0.10.0",
+    "soap": "^0.24.0",
+    "xml2js": "^0.4.22"
+  },
+  "engines": {
+    "node": ">=7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/node-forge": "^0.9.7",
+    "@types/xml2js": "^0.4.8"
+  }
+}
